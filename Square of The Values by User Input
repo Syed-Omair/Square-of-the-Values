@@ -1,0 +1,12 @@
+x=int(input("Enter First Value:"))
+y=int(input("Enter Second Value:"))
+i=1
+print("Numbers\t\t\tSquares")
+if(y>x):
+   while(y>=x):
+    print(x,"\t\t\t",x*x)
+    x+=1
+else:
+   while(x>=y):
+    print(y,"\t\t\t",y*y)
+    y+=1
